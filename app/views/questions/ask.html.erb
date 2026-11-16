@@ -1,0 +1,8 @@
+<h1>A form</h1>
+
+
+<form action="answer" data-turbo="false">
+  <label for="questions">Your question</label>
+  <input type="text" id="question" name="question" value="<%= params[:question] %>">
+  <input type="submit" value="Ask!">
+</form>
